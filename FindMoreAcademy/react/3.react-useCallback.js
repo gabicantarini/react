@@ -31,8 +31,8 @@ export default Todo
 // O create react app foi descontinuado e trocado pelo pnpm create vite
 
 // react-18
-// pnpm install
-// pnpm run
+// npm install
+// npm run
 
-// pnpm add tailwindcss postcss autoprefixer -D
-// pnpm tailwindcss init -p
+// npm add tailwindcss postcss autoprefixer -D
+// npm tailwindcss init -p
