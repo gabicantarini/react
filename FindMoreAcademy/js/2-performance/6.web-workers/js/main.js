@@ -14,7 +14,7 @@ button1Node.addEventListener("click", () => {
     result1Node.innerText = `Done! Took ${result} seconds`
 })
 
-const worker = new Worker("./js/worker.js")
+const worker = new Worker('./js/worker.js')
 
 button2Node.addEventListener("click", () => {
     worker.postMessage({ action: "doCalc" })
