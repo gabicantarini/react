@@ -25,3 +25,10 @@ console.timeEnd("Before Memo")
 console.time("After Memo")
 console.log(memoizedAdd(2,3))
 console.timeEnd("After Memo")
+
+//React Memoization
+// Permite evitar novas renderizações ou instâncias quando as "props" ou dependências não se alteram
+//Existem 3 metodos que podemos utilizar para memoização
+//memo => permite memoizar o componente por inteiro
+//useMemo => permite memoizar valores, como objetos, arrays, etc..
+//useCallback => permite memoizar funções
