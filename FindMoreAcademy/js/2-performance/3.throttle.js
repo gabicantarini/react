@@ -32,12 +32,6 @@ document
 .getElementById("fire-throttle")
 .addEventListener("click", optimizedTriggerHandler)
 
-//Lazy Loading
-// Metodologia que consiste em adiar a inicialização de um elemento ou objeto até este ser necessário.
-//EX:
-{/* <img src="image.jpg" alt="Image Alt" loading="lazy" />
-<iframe src="iframe" loading="lazy"></iframe> */}
 
-//Intersection Observer API
-//API do browser que deteta ou conhece quando um elemento "target" torna-se vis+ivel para o utilizador.
+
 

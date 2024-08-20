@@ -1,3 +1,9 @@
+//Lazy Loading
+// Metodologia que consiste em adiar a inicialização de um elemento ou objeto até este ser necessário.
+//EX:
+{/* <img src="image.jpg" alt="Image Alt" loading="lazy" />
+<iframe src="iframe" loading="lazy"></iframe> */}
+
 [...Array.from(Array(100).keys())].forEach((item) =>{
     const image = `
         <div class="img-wrapper">

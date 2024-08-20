@@ -1,3 +1,7 @@
+
+//Intersection Observer API
+//API do browser que deteta ou conhece quando um elemento "target" torna-se visivel para o utilizador.
+
 const options = {
     root: null,
     rootMargin: "10px",

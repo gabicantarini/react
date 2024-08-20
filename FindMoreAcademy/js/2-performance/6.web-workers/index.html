@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="./js/calc.js"></script>
+    <script defer src="./js/main.js"></script>
+    <link rel="stylesheet" href="./main.css">
+    <title>Web Worker Example</title>
+</head>
+<body>
+    <header>
+        <h1>App Exemplo</h1>
+        <p>Vamos inicar um loop lento e ver como a animação reage em ambos os casos</p>
+    </header>
+
+    <section>
+        <article>
+            <h2>Sem Web Worker</h2>
+            <p>Cálculos complexos bloqueiam a thread principal e tornam a animação lenta ou até a obrigam a parar</p>
+            <p id="result-1"></p>
+            <button type="button" id="button-1">Executar</button>
+        </article>
+
+        <article>
+            <h2>Com Web Worker</h2>
+            <p>Se extrairmos toda a operação complexa para o worker, a animação corre sem impacto negativo</p>
+            <p>
+                <span class="loader is-hidden" id="loader"></span>
+                <span id="result-2"></span>
+            </p>
+            <button type="button" id="button-2">Executar</button>
+        </article>
+
+        <section>
+            <div class="fpsometer"></div>
+        </section>
+    </section>
+</body>
+</html>
