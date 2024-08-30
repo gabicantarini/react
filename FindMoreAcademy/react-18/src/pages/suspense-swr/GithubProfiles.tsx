@@ -1,7 +1,7 @@
 import {Suspense, useState} from "react";
 import {User} from "../../components/User.tsx";
 //import {Repos} from "../../components/Repos.tsx";
-//import {Followers} from "../../components/Followers.tsx";
+import {Followers} from "../../components/Followers.tsx";
 
 const githubUsers = ["marcklefter", "krawaller", "masak", "toshi38"]
 
@@ -43,10 +43,10 @@ export function GithubProfiles() {
             <div className="flex">
             <Suspense fallback={<>Loading additional information...</>}>
                 <div className="flex flex-[0.5] flex-col">
-                    
+                   
                 </div>
                 <div className="flex flex-[0.5] flex-col">
-                   
+                    <Followers user={currentUser} />
                 </div>
             </Suspense>
             </div>
