@@ -1,7 +1,3 @@
-export const NotFoundPage = () => {
-
-
-    return (
-            <h1>This is my Not Found Page</h1>
-    )
-}
+export const NotFoundPage = () =>  (
+    <h1>404: Page Not Found </h1>
+)
