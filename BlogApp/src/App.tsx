@@ -6,7 +6,7 @@ function App() {
     <>
       <div className="App">
         <h1>Welcome to my Blog</h1>
-          <div className="card">
+          <div className="page-body">
             This is my blog.
           </div>
       </div>
